@@ -1,0 +1,71 @@
+a{
+  text-decoration: none;
+}
+.content,.right-side{
+  float:left;
+  height: 100%;
+}
+.content{
+  width: 80%;
+  overflow-y: auto;
+  background: #000033;
+}
+.content p{
+  padding: 0 20px;
+  line-height: 24px;
+  color: #fff;
+}
+.right-side{
+  text-align: center;
+  width:20%;
+}
+
+.right-side .save{
+  cursor: pointer;
+  display: block;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  margin: 40px auto;
+  color: #fff;
+  background: #00CC99;
+  border-radius: 5px;
+  box-shadow: 2px 3px 20px #009966;
+}
+.right-side .save:hover{
+  background: #00CC33;
+}
+.right-side .save:active{
+  box-shadow: 1px 2px 10px #009966;
+  background: #00CC66;
+}
+
+.right-side .log{
+
+}
+.right-side .log .title{
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+}
+.right-side .log span{
+  font-size: 14px;
+}
+.right-side .link{
+  overflow-y: auto;
+}
+.right-side .log a{
+  display: block;
+  height: 24px;
+  cursor: pointer;
+  color:#009966;
+  margin-bottom: 5px;
+}
+.right-side .log a:hover{
+  font-size: 18px;
+  color: #009933;
+}
+.right-side .log a:active{
+  font-size: 16px;
+  color:#00CC33;
+}
